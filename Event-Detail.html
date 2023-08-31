@@ -33,7 +33,7 @@
           
 
                 <ul class="h-ul" id="hul">
-                    <li>   <a href="#">  
+                    <li class="home">   <a href="#">  
                       Home
                     </a></li>
                     <li>   <a href="#">
@@ -240,6 +240,14 @@
             });
 
         });
+
+               $(document).ready(function() {
+    // Add a click event listener to the card element
+    $(".home").on("click", function() {
+        // Redirect to another HTML page when the card is clicked
+        window.location.href = "index.html";
+    });
+});
     </script>
 </body>
 
