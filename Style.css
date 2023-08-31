@@ -725,7 +725,7 @@ background-image: url(img/desk\ 01.png);
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 
  .card-01 {
    display: flex;
